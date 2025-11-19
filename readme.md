@@ -29,9 +29,10 @@ Key files:
 - `assets/` — images and SVG icons used across the site.
 - `favicon/` — favicon and web manifest for browser tabs and mobile devices
 
-## Live Demo
+## Links
 
-[Visit the live site](https://www.senin-domainin.com)
+- GitHub Repository: [View on GitHub](https://github.com/busrakuscu0/nail-art-landing-page)
+- Live Site: [Visit the live site](https://begumnailart.com/)
 
 ## Fonts & Assets
 
