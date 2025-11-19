@@ -692,9 +692,10 @@ a.hero__btn:hover {
 @media (prefers-color-scheme: dark) {
 
     body,
+    section,
     footer {
-        background-color: #121212;
-        color: #e6e6e6;
+        background-color: var(--color-text);
+        color: var(--pure-white);
     }
 
     img {
