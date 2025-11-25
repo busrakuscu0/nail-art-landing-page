@@ -191,6 +191,10 @@ a.hero__btn:hover {
     margin-top: 32px;
 }
 
+.service-card__container h3 {
+    padding-left: 16px;
+}
+
 .service-card {
     flex: 1 0 250px;
     box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.2);
@@ -200,6 +204,8 @@ a.hero__btn:hover {
 .service-card__text {
     font-size: var(--text-2xs);
     color: var(--color-primary);
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .readmore-toggle {
@@ -216,6 +222,7 @@ a.hero__btn:hover {
 
 .readmore-label {
     margin-top: 16px;
+    padding: 16px;
     color: var(--color-dark);
     font-weight: 600;
     cursor: pointer;
@@ -455,8 +462,18 @@ a.hero__btn:hover {
         margin-top: 48px;
     }
 
+    .service-card__container h3 {
+        padding-left: 32px;
+    }
+
     .service-card__text {
         font-size: var(--text-sm);
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .readmore-label {
+        padding: 32px;
     }
 
     .collection {
@@ -488,6 +505,8 @@ a.hero__btn:hover {
         display: grid;
         grid-template-columns: 200px 200px 200px;
         column-gap: 40px;
+        padding-top: 32px;
+        padding-bottom: 60px;
     }
 
     .footer__brand {
@@ -620,8 +639,18 @@ a.hero__btn:hover {
         margin-top: 48px;
     }
 
+    .service-card__container h3 {
+        padding-left: 32px;
+    }
+
     .service-card__text {
         font-size: var(--text-sm);
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .readmore-label {
+        padding: 32px;
     }
 
     .collection {
@@ -656,9 +685,10 @@ a.hero__btn:hover {
 
     .footer__container {
         display: grid;
-        grid-template-rows: 150px 150px;
-        grid-template-columns: 400px 400px;
-        column-gap: 100px;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 80px;
+        padding-top: 32px;
+        padding-bottom: 60px;
     }
 
     .footer__brand {
@@ -675,7 +705,7 @@ a.hero__btn:hover {
 
     .contact {
         padding-top: 16px;
-        padding-bottom: 16px;
+        padding-bottom: 24px;
     }
 
     .contact__links--phone {
