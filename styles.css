@@ -686,9 +686,12 @@ a.hero__btn:hover {
     .footer__container {
         display: grid;
         grid-template-columns: 200px 200px 200px;
-        column-gap: 80px;
+        column-gap: 100px;
         padding-top: 32px;
         padding-bottom: 60px;
+        max-width: 80vw;
+        margin: 0 auto;
+        justify-content: space-around;
     }
 
     .footer__brand {
